@@ -1,0 +1,105 @@
+/********************************
+General styling
+*********************************/
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration:  none;
+}
+
+
+/********************************
+Heading styling
+*********************************/
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Playball', cursive, sans-serif;
+	margin: 0;
+	padding: 20px 0 0 0;
+	font-size: 4em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2{
+	font-size: 2.2em;
+	margin-top: 0.5em;
+	font-weight: normal;
+}
+
+
+/********************************
+Navigation styling
+*********************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+
+
+/********************************
+Navigation styling
+*********************************/
+
+footer{
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #c0c0c0;
+}
+
+
+
+/********************************
+Colors styling
+*********************************/
+
+/* site body */
+body {
+	background-color: #fff;
+	color: #999;
+}
+
+header {
+	background: #6ab47b;
+	border-color:#599a68;
+}
+
+nav{
+	background: #599a68;
+}
+
+h1, h2 {
+	color: #fff;
+}
+
+a {
+	color: #6ab47b;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+
