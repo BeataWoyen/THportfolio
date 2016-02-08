@@ -26,6 +26,13 @@ img {
 Heading styling
 *********************************/
 
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
 #logo {
 	text-align: center;
 	margin: 0;
@@ -33,8 +40,7 @@ Heading styling
 
 h1 {
 	font-family: 'Playball', cursive, sans-serif;
-	margin: 0;
-	padding: 20px 0 0 0;
+	margin: 15px 0;
 	font-size: 4em;
 	font-weight: normal;
 	line-height: 0.8em;
@@ -57,6 +63,21 @@ nav {
 	margin: 20px 0 0;
 }
 
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+		display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
 
 
 /********************************
@@ -69,6 +90,12 @@ footer{
 	clear: both;
 	padding-top: 50px;
 	color: #c0c0c0;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
 }
 
 
